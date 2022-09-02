@@ -54,12 +54,28 @@ h1 {
       -27px 54px 1px #e2e0df, 
       -28px 56px 1px #e4e3e2;
   }
-  .cajita{
+  #caj1{
     border-radius: 10px;
     background-color: #737272;
     color: white;
     width: 50%;
-    margin: 20px 100px;
+    margin: 50px 100px;
+  }
+  #caj2{
+    border-radius: 10px;
+    background-color: #737272;
+    color: white;
+    width: 50%;
+    margin: 50px 400px;
+  }
+  @media screen and (max-width: 805px){
+    #caj2{
+    border-radius: 10px;
+    background-color: #737272;
+    color: white;
+    width: 50%;
+    margin: 50px 100px;
+    }
   }
   .content{
     text-align: center;
@@ -165,4 +181,5 @@ h1 {
   h1{
     max-width: 100%;
     font-size: 50px;
+  }
   }
